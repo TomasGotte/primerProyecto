@@ -1,0 +1,47 @@
+/*!----------reset----------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*!----------header----------*/
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 500px;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+header nav ul{
+    width: 1000px;
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+header nav ul li{
+    width: 200px;
+    margin: auto;
+}
+header nav ul li a{
+        text-decoration: none;
+        background-color: white;
+    }
+
+/*!----------main----------*/
+
+h2{
+    color: aqua;
+}
+
+
+/*!----------footer----------*/
+footer h2{
+    color: orange;
+}
+footer div a{
+    font-size: 50px;
+    color: black;
+}
